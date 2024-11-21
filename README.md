@@ -73,10 +73,10 @@ Bag-of-Words Model: Converts the tokenized sentence into a numerical format that
 - Natural Language Processing (NLP): Utilizes NLTK for text preprocessing tasks like tokenization.
 - Machine Learning Model: A feedforward neural network trained to classify user inputs into predefined intents.
 - Training:
- - The model is trained on the dataset defined in intents.json.
- - Uses Cross-Entropy Loss and the Adam optimizer.
+  - The model is trained on the dataset defined in intents.json.
+  - Uses Cross-Entropy Loss and the Adam optimizer.
 - Activation Functions:
- - ReLU: Introduces non-linearity, allowing the model to learn complex patterns.
- - Softmax: Converts output scores into probabilities for intent classification.
+  - ReLU: Introduces non-linearity, allowing the model to learn complex patterns.
+  - Softmax: Converts output scores into probabilities for intent classification.
 - Regularization:
- - Dropout Layers: Prevents overfitting by randomly deactivating neurons during training.
+  - Dropout Layers: Prevents overfitting by randomly deactivating neurons during training.
