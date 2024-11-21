@@ -42,11 +42,11 @@ This project is a conversational AI chatbot designed to interact with users in a
 
 2. **Install Dependencies**
 
-  ``pip install -r requirements.txt``
+    ``pip install -r requirements.txt``
 
-  ``import nltk``
-  ``nltk.download('punkt') ``
+    ``import nltk``
+    ``nltk.download('punkt') ``
 
 3. **Run the app**
 
-  ``python app.py``
+    ``python app.py``
