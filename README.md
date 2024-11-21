@@ -50,3 +50,33 @@ This project is a conversational AI chatbot designed to interact with users in a
 3. **Run the app**
 
     ``python app.py``
+
+## How It Works
+
+## Text Processing
+
+Tokenization: The input sentence is broken down into individual words.
+Bag-of-Words Model: Converts the tokenized sentence into a numerical format that the model can understand.
+
+## Neural Network
+- Built using PyTorch.
+- Input Layer: Receives the bag-of-words vector.
+-  Hidden Layers: Two layers with ReLU activation and Dropout for regularization.
+- Output Layer: Outputs probabilities for each intent using Softmax.
+
+## Inference
+- The model predicts the intent of the user's input.
+- Based on the predicted intent and a confidence threshold, an appropriate response is selected.
+- If the confidence is low, a default fallback response is provided.
+
+## AI and Machine Learning Details
+- Natural Language Processing (NLP): Utilizes NLTK for text preprocessing tasks like tokenization.
+- Machine Learning Model: A feedforward neural network trained to classify user inputs into predefined intents.
+- Training:
+-- The model is trained on the dataset defined in intents.json.
+-- Uses Cross-Entropy Loss and the Adam optimizer.
+- Activation Functions:
+-- ReLU: Introduces non-linearity, allowing the model to learn complex patterns.
+-- Softmax: Converts output scores into probabilities for intent classification.
+- Regularization:
+-- Dropout Layers: Prevents overfitting by randomly deactivating neurons during training.
