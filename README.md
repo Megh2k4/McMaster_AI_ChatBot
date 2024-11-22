@@ -38,16 +38,16 @@ This project is a conversational AI chatbot designed to interact with users in a
 1. **Clone the Repository**
 
    ``git clone https://github.com/Megh2k4/McMaster_AI_ChatBot.git``
+   
    ``cd McMaster_AI_ChatBot``
 
-2. **Install Dependencies**
-
-    ``pip install -r requirements.txt``
+3. **Install Dependencies**
 
     ``import nltk``
+   
     ``nltk.download('punkt') ``
 
-3. **Run the app**
+5. **Run the app**
 
     ``python app.py``
 
